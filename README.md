@@ -1,28 +1,23 @@
-public class Day01Basics {
+# Java for Testers Journey
 
-    public static void main(String[] args) {
-        int amount = 100;
-        boolean isValid = isValidAmount(amount);
+This repository documents my Java learning journey, starting from the
+fundamentals and progressing toward test automation and SDET-level skills.
 
-        System.out.println("Amount: " + amount);
-        System.out.println("Is valid: " + isValid);
+I'll be focusing on writing clear, maintainable Java code with a testing mindset,
+using small, incremental exercises and practical examples.
 
-        printTransactions();
-    }
+## Goals
+- Learn Java from the ground up
+- Apply Java concepts in a testing context
+- Build a solid foundation for API Test Automation
+- Develop habits aligned with SDET roles
 
-    public static boolean isValidAmount(int amount) {
-        if (amount > 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+## Repository Structure
+- exercises/ – Java exercises organised by week and topic
 
-    public static void printTransactions() {
-        for (int i = 1; i <= 3; i++) {
-            System.out.println("Transaction " + i);
-        }
-    }
-}
+## Current Progress
+- Week 01: Java basics, conditions, loops, and simple domain modelling
 
-day02: add conditional logic and loop examples
+## Status
+Work in progress – updated continuously as learning progresses.
+
