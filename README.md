@@ -1,4 +1,4 @@
-# GitBasicsForEstela
+# Java-For-Testers-Journey
 # Project Name: Git Basics for Estela
 This is a simple exercise to start using GitHub
 And add AI Agents to it later
