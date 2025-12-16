@@ -1,5 +1,5 @@
 # Java-For-Testers-Journey
-# Project Name: Git Basics for Estela
+# Project Name: Java for Testers Journey
 This is a simple exercise to start using GitHub
 And add AI Agents to it later
 
