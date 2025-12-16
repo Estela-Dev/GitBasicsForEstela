@@ -1,17 +1,28 @@
-# Java-For-Testers-Journey
-# Project Name: Java for Testers Journey
-This is a simple exercise to start using GitHub
-And add AI Agents to it later
+public class Day01Basics {
 
-## Getting Started
-No idea. Just getting started is already great.
+    public static void main(String[] args) {
+        int amount = 100;
+        boolean isValid = isValidAmount(amount);
 
-## Usage
-For educational purposes only
+        System.out.println("Amount: " + amount);
+        System.out.println("Is valid: " + isValid);
 
-## Contributing
-This is a work in progress.
-I will be using CoPilot to help me.
+        printTransactions();
+    }
 
-## License
-No licenses needed for now.
+    public static boolean isValidAmount(int amount) {
+        if (amount > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static void printTransactions() {
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("Transaction " + i);
+        }
+    }
+}
+
+day02: add conditional logic and loop examples
